@@ -1,0 +1,116 @@
+body{
+  background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+  font-family: Roboto, Arial;
+  padding-top: 100px;
+}
+
+.border{
+  background-color: white;
+  height: 300px;
+  width: 500px;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+/*Illustration Image*/
+.image{
+  height: 300px;
+  width: 200px;
+  margin-left: 25px;
+  border-radius: 100px;
+}
+
+/*Flexbox of image and validation form*/
+.validation-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.validation{
+  display:flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.member-login{
+  font-weight: bold;
+  padding-left: 40px;
+  font-size: 15px;
+  background: -webkit-linear-gradient(50deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+.username{
+  width: 190px;
+  height: 25px;
+  margin-top: 15px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  background-color: rgb(241, 239, 239);
+  font-size: 11px;
+  padding-left: 10px;
+}
+
+.password{
+  width: 190px;
+  height: 25px;
+  margin-top: 10px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  background-color: rgb(241, 239, 239);
+  font-size: 11px;
+  padding-left: 10px;
+}
+
+.login{
+  width: 201px;
+  height: 28px;
+  margin-top: 10px;
+  background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 15px;
+  font-size: 11px;
+}
+
+.login:active{
+  width: 201px;
+  height: 28px;
+  margin-top: 10px;
+  background: linear-gradient(90deg, hsla(197, 100%, 64%, 1) 0%, hsla(339, 100%, 55%, 1) 100%);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+}
+
+.forgot-password-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.forgot{
+  font-weight: bold;
+  color: black;
+  font-size: 10px;
+  margin-right: 2px;
+}
+
+.forgot-password{
+  color:hsla(339, 100%, 55%, 1);
+  font-size: 10px;
+}
+
+.create-account{
+  color:hsla(197, 100%, 64%, 1);
+  font-size: 10px;
+  margin-top: 5px;
+}
